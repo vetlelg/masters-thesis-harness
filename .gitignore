@@ -1,0 +1,34 @@
+# Python-generated files (the same entries uv writes for a new project)
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environment (rebuilt from uv.lock with `uv sync`)
+.venv
+
+# Secrets: .env and variants such as .env.real; the template stays versioned
+.env
+.env.*
+!.env.example
+
+# Agent run records, one folder per run; can contain telemetry (step 1.3)
+runs/
+
+# pytest cache (step 1.4)
+.pytest_cache/
+
+# Local clone of the otel-lgtm example apps, only if building from the Git URL fails (step 1.1)
+deploy/dev/vendor/
+
+# Personal Claude Code settings; the shared CLAUDE.md is committed
+.claude/settings.local.json
+
+# Editor and OS files
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
+.DS_Store
